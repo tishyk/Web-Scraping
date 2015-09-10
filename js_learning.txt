@@ -1,0 +1,5 @@
+confirm("Confirm action from user"); return True or False
+prompt("Confirm action from user"); return string from user enter field
+console.log(datattype) // return datatype to console - print
+// js vs python
+//=== vs ==; !== vs !=
