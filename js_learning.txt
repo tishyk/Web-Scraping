@@ -1,12 +1,12 @@
 //confirm("I am ok");Ask user yes or not return True or False
 /*prompt("Are you ok?") Ask for entry fiels; return string from user enter field
-console.log(datattype) // return datatype to console -   as  print () */
-
+console.log(datattype) // return datatype to console -   as  print () 
+console.log(11 % 3) // return 2 (remainder of devision) */
 // js vs python
 //=== vs ==; !== vs !=
-//console.log(11 % 3) // return 2 (remainder of devision)
 //"wonderful day".substring(4,8) return slice of string
-// var user = prompt("Enter your Name")"
+var computerChoice = Math.random()
+
 
 //--- if statement ---
 /*
@@ -18,6 +18,12 @@ if (10 = 10); {
   }
 }
 */
+
+// Example of a for loop:
+for (var i = 1; i < 11; i = i + 1) {
+    /* your code here */;
+}
+
 
 //--- Function ---
 
