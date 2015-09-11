@@ -1,14 +1,29 @@
 //confirm("I am ok");Ask user yes or not return True or False
-//prompt("Are you ok?") Ask for entry fiels; return string from user enter field
-//console.log(datattype) // return datatype to console -   as  print ()
+/*prompt("Are you ok?") Ask for entry fiels; return string from user enter field
+console.log(datattype) // return datatype to console -   as  print () */
+
 // js vs python
 //=== vs ==; !== vs !=
-//if (10 = 10); {
-//    console.log("You got a true!");
-//} else {
-//    console.log("You got a false!");
-//}
-
 //console.log(11 % 3) // return 2 (remainder of devision)
 //"wonderful day".substring(4,8) return slice of string
 // var user = prompt("Enter your Name")"
+
+//--- if statement ---
+/*
+if (10 = 10); {
+    console.log("You got a true!");
+} else if (statement){
+    console.log("You got a false!");
+}else{
+  }
+}
+*/
+
+//--- Function ---
+
+var compare = function (userChoice, computerChoice){
+ if (userChoice === computerChoice)  {
+ return "The result is a tie!"
+ }
+}
+
