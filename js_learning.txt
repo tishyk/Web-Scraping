@@ -2,6 +2,8 @@
 /*prompt("Are you ok?") Ask for entry fiels; return string from user enter field
 console.log(datattype) // return datatype to console -   as  print () 
 console.log(11 % 3) // return 2 (remainder of devision) */
+(&&), or (||), and not (!)
+
 // js vs python
 //=== vs ==; !== vs !=
 //"wonderful day".substring(4,8) return slice of string
