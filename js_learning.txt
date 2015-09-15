@@ -42,4 +42,8 @@ var compare = function (userChoice, computerChoice){
  return "The result is a tie!"
  }
 }
-
+//If you call isNaN on something, it checks to see if that thing is not a number
+isNaN('berry'); // => true
+isNaN(NaN); // => true
+isNaN(undefined); // => true
+isNaN(42);  // => false
