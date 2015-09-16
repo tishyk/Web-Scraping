@@ -77,3 +77,19 @@ switch (/*Some expression*/) {
     default:
        // Do yet another thing
 }
+Object.getOwnPropertyNames() возвращает перечислимые и не перечислимые свойства из объекта или массива.
+Пример:
+var arr = ["a", "b", "c"]; 
+print(Object.getOwnPropertyNames(arr).sort()); // prints "0,1,2,length" 
+ 
+// Array-like object 
+var obj = { 0: "a", 1: "b", 2: "c"}; 
+print(Object.getOwnPropertyNames(obj).sort()); // prints "0,1,2" 
+Object.keys() возвращает перечислимые свойства из объекта или массива.
+Пример:
+var arr = ["a", "b", "c"]; 
+alert(Object.keys(arr)); // will alert "0,1,2" 
+ 
+// array like object 
+var obj = { 0 : "a", 1 : "b", 2 : "c"}; 
+alert(Object.keys(obj)); // will alert "0,1,2" 
